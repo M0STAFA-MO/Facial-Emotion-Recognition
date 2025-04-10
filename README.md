@@ -7,14 +7,7 @@
 
 A high-performance emotion classification system achieving **93.98% accuracy** using ResNet50 feature extraction and SVM classification.
 
-## Table of Contents
-- [Features](#-key-features)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Dataset](#-dataset-structure)
-- [Performance](#-performance-metrics)
-- [Saving/Loading](#-model-persistence)
-- [Contributing](#-contributing)
+
 
 ## 🚀 Key Features
 - **Transfer Learning**: Leverages pre-trained ResNet50 for efficient feature extraction
@@ -23,20 +16,8 @@ A high-performance emotion classification system achieving **93.98% accuracy** u
 - **Reproducible**: Fixed random seeds ensure consistent results
 - **Efficient Processing**: Batch image handling with progress tracking
 
-## 💻 Installation
-```bash
-git clone https://github.com/yourusername/emotion-recognition.git
-cd emotion-recognition
 
-🧠 Usage
-Feature extraction:
-python extract_features.py
 
-Train model:
-python train.py
-
-Evaluate:
-python evaluate.py
 
 📦 dataset/
 ├── Angry/        # 310 images (220×220 RGB)
@@ -53,36 +34,5 @@ Fear	     0.93	  0.93	   0.93
 Neutral	   0.95	  0.98	   0.97
 Surprise	 0.98	  0.98	   0.98
 
-💾 Model Persistence
-Save/Load models with one command:
 
-joblib.dump(model, 'emotion_model.pkl')
 
-model = joblib.load('emotion_model.pkl')
-
-🤝 Contributing
-Contributions welcome! Please:
-
-Fork the repository
-
-Create your feature branch
-
-Submit a pull request
-
-📜 License
-MIT
-
-Key features of this README:
-1. Professional badges showing key metrics
-2. Clear table of contents
-3. Concise installation/usage instructions
-4. Visual dataset structure
-5. Detailed performance table
-6. Contribution guidelines
-7. MIT license notice
-
-Would you like me to:
-1. Add screenshots of sample predictions?
-2. Include a demo GIF?
-3. Add hardware requirements?
-4. Include citation information for academic use?
