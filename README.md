@@ -1,5 +1,9 @@
 # Emotion Recognition from Images
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.6%2B-orange)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0%2B-green)
+
 A deep learning pipeline for emotion classification using facial images, featuring transfer learning with ResNet50 and SVM classification.
 
 ## 🚀 Key Features
@@ -8,13 +12,7 @@ A deep learning pipeline for emotion classification using facial images, featuri
 - **Model Choices**: 
   - SVM with linear kernel (best performance in testing)
   - Alternative neural network options available
-- **Reproducible**: Fixed random seeds for consistent results
+- **Reproducible**: Fixed random seeds (42) for consistent results
+- **Efficient Processing**: Batch image processing with progress tracking
 
 ## 📂 Dataset Structure
-📦 project/emotion/
-├── angry/ # 310 images
-├── happy/ # 309 images
-├── surprise/ # 310 images
-├── fear/ # 310 images
-└── neutral/ # 238 images
-
