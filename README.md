@@ -11,3 +11,10 @@ A deep learning pipeline for emotion classification using facial images, featuri
 - **Reproducible**: Fixed random seeds for consistent results
 
 ## 📂 Dataset Structure
+📦 project/emotion/
+├── angry/ # 310 images
+├── happy/ # 309 images
+├── surprise/ # 310 images
+├── fear/ # 310 images
+└── neutral/ # 238 images
+
