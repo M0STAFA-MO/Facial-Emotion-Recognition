@@ -38,9 +38,9 @@ cd emotion-recognition
 
 📊 Performance Metrics
 Emotion	Precision	Recall	F1-Score
-Angry	0.91	0.86	0.88
-Happy	0.93	0.96	0.95
-Fear	0.93	0.93	0.93
-Neutral	0.95	0.98	0.97
-Surprise	0.98	0.98	0.98
+Angry	     0.91 	0.86	   0.88
+Happy	     0.93	  0.96     0.95
+Fear	     0.93	  0.93	   0.93
+Neutral	   0.95	  0.98	   0.97
+Surprise	 0.98	  0.98	   0.98
 
