@@ -27,7 +27,7 @@ A high-performance emotion classification system achieving **93.98% accuracy** u
 ```bash
 git clone https://github.com/yourusername/emotion-recognition.git
 cd emotion-recognition
-pip install -r requirements.txt
+
 
 📦 dataset/
 ├── Angry/        # 310 images (220×220 RGB)
@@ -43,10 +43,4 @@ Happy	0.93	0.96	0.95
 Fear	0.93	0.93	0.93
 Neutral	0.95	0.98	0.97
 Surprise	0.98	0.98	0.98
-💾 Model Persistence
-Save/Load models with one command:
-# Save
-joblib.dump(model, 'emotion_model.pkl')
 
-# Load 
-model = joblib.load('emotion_model.pkl')
