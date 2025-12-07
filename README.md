@@ -12,9 +12,9 @@ This project implements a high-performance emotion classification system that ac
 
 ## Technical Specifications
 
-- Python 3.8+
-- TensorFlow 2.6+
-- scikit-learn 1.0+
+- Python 
+- TensorFlow 
+- scikit-learn 
 - Processes 5 emotion classes: Angry, Happy, Surprise, Fear, Neutral
 - Handles 1,477 total images with balanced distribution
 
@@ -48,11 +48,8 @@ To use this system:
 
 You can access the datasets used in this project from the following Google Drive folders:
 
-- [Dataset Folder 1](https://drive.google.com/drive/folders/14SkXPVTqQOrfug_YCrHt9c067I6oZ12W?usp=sharing)  
-- [Dataset Folder 2](https://drive.google.com/drive/folders/1WRj89dafgnBPunxFKTfQPeXklIbzmaFR?usp=sharing)  
-- [Dataset Folder 3](https://drive.google.com/drive/folders/1QHNgqRxCVljw9fbocUCKfdXNjjCQlp_e?usp=sharing)  
-- [Dataset Folder 4](https://drive.google.com/drive/folders/1CqvyghIQsXl968FGCyjaTiBgVm8kvvLu?usp=sharing)  
-- [Dataset Folder 5](https://drive.google.com/drive/folders/1nIBp56mX2mD-bF1zK6pyuWHf5bEHpa1e?usp=sharing)  
+- [Dataset](https://drive.google.com/drive/folders/1tycCZMfXJexuQQyOFbkgELzR6gPV3sKM?usp=sharing)  
+
 
 ## Future Enhancements
 
